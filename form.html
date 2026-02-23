@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+<body>
+    <h1>Form</h1>
+    <Form>
+ <br>First Name <input type="text"><br>
+ <br>last name <input type="text"> <br>
+ <br>Email<input type="Email "><br>
+ <br>Password<input typr="Password"><br>
+ <br>DOB<input type="date"><br>
+ <br>GENDER<br>
+ Maile <input type="radio" name="karan"
+ <br><br>
+ Female <input type="radio" name="karan"
+ <br><br>
+ document <input type="file">
+ <br><br>
+ <label for="exp">Exp:</label>
+<input type="range" id="exp" name="exp" min="0" max="25" step="1" value="25" 
+       oninput="expValue.value = this.value">
+<output id="expValue">25</output>
+<br>description: <textarea></textarea><br>
+
+ <br><br>
+ 10th <input type="checkbox">
+ 12th <input type="checkbox">
+ BE <input type="checkbox">
+ 
+ <br><br>
+ <lable for="state">select state:</lable>
+  <select>
+                <option value ="">--select State--</option>
+                <option value ="">Maharashtra</option>
+                <option value ="">KA</option>
+                <option value ="">GJ</option>
+                <option value ="">UP</option>
+                <option value ="">Punjab</option>
+                <option value ="">MP</option>
+            </select>
+
+ <br><br>
+  <button onclick="myfunction()">submit</button>
+<script>
+    function myfunction(){
+        alert("your from submitted successfully..!")
+    }
+</script>
+
+</Form>
+</body>

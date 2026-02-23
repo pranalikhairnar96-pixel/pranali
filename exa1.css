@@ -1,0 +1,10 @@
+body{
+    background-color:rgb(201, 85, 85);
+    color:black;
+    font-size: italic;
+    text-align: center;
+}
+.forms{
+    border: 1px solid black;
+    padding:40px;
+}

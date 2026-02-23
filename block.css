@@ -1,0 +1,18 @@
+.outer-div{
+    display: grid;
+    gap : 15px;
+    justify-content: center;
+    grid-template-columns: auto auto;
+}
+.block{
+    background-color: aliceblue ;
+    border: 2px;
+    height: 50px;
+    width: 450px;
+    padding: 3px;
+    margin: 10%;
+    
+}
+.flex{
+    display:flex;
+}
